@@ -8,16 +8,19 @@ body {
   width: 100%;
   height: 100vh;
   background-color: white;
+  justify-content: center;
 }
 body .container {
   max-width: 1416px;
   height: 100vh;
+  padding: 15px;
+  justify-content: center;
 }
 body .container .header-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 40px;
+  padding-bottom: 25px;
 }
 body .container .header-nav .left {
   display: flex;
@@ -85,7 +88,7 @@ body .container .header-nav .right .nav_btn {
 body .container .banner {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 30px;
 }
 body .container .banner .text .name {
   font-family: "Montserrat";
@@ -127,7 +130,7 @@ body .container .banner .text .paragraph {
   flex: none;
   order: 1;
   flex-grow: 0;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 body .container .banner .text .links {
   display: flex;
@@ -168,6 +171,10 @@ body .container .banner .text .stats {
   display: flex;
   align-items: center;
   gap: 113.54px;
+  text-align: start;
+}
+body .container .banner .text .stats .first {
+  text-align: center;
 }
 body .container .banner .text .stats .first .number {
   font-size: 48px;
@@ -177,8 +184,6 @@ body .container .banner .text .stats .first .number {
   color: #000000;
   flex: none;
   order: 1;
-  flex-grow: 0;
-  padding-left: 10px;
 }
 body .container .banner .text .stats .first p {
   font-family: "Montserrat";
@@ -216,11 +221,11 @@ body .container .banner .text .stats .second p {
   flex-grow: 0;
   text-align: center;
 }
-body .container .banner .image img {
-  width: 550px;
-  height: 550px;
+body .container .banner .images img {
+  width: 500px;
+  height: 500px;
 }
-body .container .banner .image .Joystick {
+body .container .banner .images .Joystick {
   position: absolute;
   width: 200px;
   height: 200px;
@@ -228,10 +233,10 @@ body .container .banner .image .Joystick {
   left: 610px;
   z-index: -1;
 }
-body .container .banner .image .Flower {
+body .container .banner .images .Flower {
   position: absolute;
-  width: 500px;
-  height: 500px;
-  left: 865px;
-  top: 149px;
+  width: 450px;
+  height: 450px;
+  left: 869px;
+  top: 167px;
 }/*# sourceMappingURL=style.css.map */
