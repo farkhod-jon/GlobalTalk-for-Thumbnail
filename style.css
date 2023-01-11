@@ -11,13 +11,14 @@
         background-color: white;
     }
 
-    body .container{
+    body{
         width: 100%;
         height: 100vh;
-        padding: 0 242px;
     }
 
-    body .container .header-nav{
+    body .header-nav{
+        width: 100%;
+        height: 88px;
         padding-top: 79.56px;
         display: flex;
         align-items: center;
@@ -25,19 +26,29 @@
         padding-bottom: 71.79px;
     }
 
-    body .container .header-nav .left{
+    body .main{
+        background: #F6F5F4;
+        padding: 0 242px;
+    }
+
+    body .learn_language{
+        background-color: white;
+        padding: 0 242px;
+    }
+
+    body  .header-nav .left{
         display: flex;
         align-items: center;
         gap: 68.12px;
     }
 
-    body .container .header-nav .left ul{
+    body .header-nav .left ul{
         display: flex;
         align-items: center;
         gap: 34.06px;
     }
 
-    body .container .header-nav .left ul a{
+    body .header-nav .left ul a{
         display: flex;
         align-items: center;
         text-align: center;
@@ -55,13 +66,13 @@
         flex-grow: 0;
     }
 
-    body .container .header-nav .right{
+    body .header-nav .right{
         display: flex;
         align-items: center;
         gap: 29.8px;
     }
 
-    body .container .header-nav .right .login{
+    body .header-nav .right .login{
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 700;
@@ -75,7 +86,7 @@
         text-decoration: none;
     }
 
-    body .container .header-nav .right .nav_btn{
+    body .header-nav .right .nav_btn{
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 700;
@@ -91,14 +102,16 @@
         border-radius: 17.0304px;
     }
 
-    body .container .banner{
+    body .banner{
+        width: 100%;
+        height: 740px;
         display: flex;
         align-items: center;
         gap: 95.01px;
         justify-content: space-between;
     }
 
-    body .container .banner .text .name{
+    body .banner .text .name{
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 700;
@@ -113,7 +126,7 @@
         padding-bottom: 28.38px;
     }
 
-    body .container .banner .text .title{
+    body .banner .text .title{
         max-width: 637.95px;
         font-family: 'Dela Gothic One';
         font-style: normal;
@@ -128,7 +141,7 @@
         padding-bottom: 42.58px;
     }
 
-    body .container .banner .text .paragraph{
+    body .banner .text .paragraph{
         max-width: 461.91px;
         font-family: 'Montserrat';
         font-style: normal;
@@ -143,14 +156,14 @@
         padding-bottom: 42.58px;
     }
 
-    body .container .banner .text .links{
+    body .banner .text .links{
         display: flex;
         align-items: center;
         gap: 29.8px;
         padding-bottom: 58.34px;
     } 
 
-    body .container .banner .text .links .login{
+    body .banner .text .links .login{
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 700;
@@ -161,7 +174,7 @@
         text-decoration: none;
     }
 
-    body .container .banner .text .links .banner_btn{
+    body .banner .text .links .banner_btn{
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 700;
@@ -178,14 +191,14 @@
         border-radius: 17.0304px;
     }
 
-    body .container .banner .text .stats{
+    body .banner .text .stats{
         display: flex;
         align-items: center;
         text-align: center;
         gap: 113.54px;
     }
 
-    body .container .banner .text .stats .first .number{
+    body .banner .text .stats .first .number{
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 700;
@@ -196,12 +209,12 @@
         font-size: 48px;
     }
 
-    body .container .banner .text .stats .first img{
+    body .banner .text .stats .first img{
         margin-right: 10px;
     }
 
 
-    body .container .banner .text .stats .second .number{
+    body .banner .text .stats .second .number{
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 700;
@@ -212,35 +225,275 @@
         font-size: 48px;
     }
 
-    body .container .banner .text .stats .second img{
+    body .banner .text .stats .second img{
         margin-right: 10px;
     }
 
 
-    body .container .banner .images {
-        position: fixed;
+    body .banner .images {
         right: 150px;
         max-width: 600px;
 
     }
 
-    body .container .banner .images .Boy{
+    body .banner .images .Boy{
+        position: absolute;
+        right: 200px;
+        top: 200px;
+        z-index: 2;
+    }
+
+    body .banner .images .Flower{
         position: absolute;
         right: 50px;
         top: 200px;
+        z-index: 3;
     }
 
-    body .container .banner .images .Flower{
-        position: relative;
-        left: 200px;
-        top: 200px;
+    body .banner .images .Joystick{
+        position: absolute;
+        top: 400px;
+        left: 900px;
+        z-index: 1;
     }
 
-    body .container .banner .images .Joystick{
-        position: relative;
-        top: -380px;
-        left: -280px;
-        z-index: -1;
+    body .main{
+        width: 100%;
+        height: 100vh;
     }
 
+    body .learn_language{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        gap: 300px;
+    }
+
+
+    body .learn_language .description .title{
+        max-width: 474.46px;
+        font-family: 'Dela Gothic One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -0.04em;
+        color: #000000;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        font-size: 48px;
+        padding-bottom: 30px;
+    }
+
+    body .learn_language .description .paragraph{
+        max-width: 396.89px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: -0.04em;
+        color: #757575;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin-bottom: 63.5px;
+    }
+
+    body .learn_language .description .things{
+        display: flex;
+        align-items: center;
+        gap: 21.1px;
+    }
+
+    body .learn_language .description .things .shoe{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background: #F2D4DC;
+        border-radius: 14px;
+        padding: 82px 25px 14px 25px;
+        
+    }
+
+    body .learn_language .description .things .shoe .image_shoe{
+      margin-top: -120px;  
+    }
+
+    
+
+    body .learn_language .description .things .megaphone{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background:  #C3DCE3;
+        border-radius: 14px;
+        padding: 82px 25px 14px 25px;
+        
+    }
+
+    body .learn_language .description .things .megaphone .image_megaphone{
+      margin-top: -120px;  
+    }
+
+    body .vocabulary{
+        width: 100%;
+        height: 500px;
+        background: #F6F5F4;
+        padding: 0 242px;
+        display: flex;
+        align-items: center;
+        gap: 300px; 
+    }
+
+    body .vocabulary .left .title{
+        max-width: 474.46px;
+        font-family: 'Dela Gothic One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -0.04em;
+        color: #000000;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        padding-bottom: 30px;
+    }
+
+    body .vocabulary .left .paragraph{
+        max-width: 396.89px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: -0.04em;
+        color: #757575;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        padding-bottom: 34px;
+    }
+
+    body .vocabulary .left .btn{
+        padding: 14px 22px;
+        background: #C3DCE3;
+        border-radius: 100px;
+    }
+
+    body .vocabulary .right img{
+        padding-top: 30px;
+    }
+
+    body .progress{
+        width: 100%;
+        height: 600px;
+        padding: 0 242px;
+        display: flex;
+        align-items: center;
+        gap: 200px;
+    }
+
+    body .progress .description .title{
+        max-width: 474.46px;
+        font-family: 'Dela Gothic One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -0.04em;
+        color: #000000;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        padding-bottom: 30px;
+    }
+
+    body .progress .description .paragraph{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: -0.04em;
+        color: #757575;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        padding-bottom: 34px;
+    }
+
+    body .progress .description .btn{
+        padding: 14px 22px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: -0.04em;
+        color: #2B788B;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        background: #C3DCE3;
+        border-radius: 100px;
+    }
+
+    body .footer{
+        width: 100%;
+        height: 160px;
+        padding: 0 242px;
+        background: #F6F5F4;
+        padding-top: 30px;
+    }
+
+    body .footer .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    body .footer .top .navbar{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    body .footer .top .navbar a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 14px;
+        color: #757575;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        text-decoration: none;
+    }
+
+    body .footer .top .names{
+        display: flex;
+        gap: 30px;
+    }
+
+    body .footer .bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    body .footer hr{
+        margin-top: 20px;
+        margin-bottom: 24px;
+    }
+
+    body .footer .bottom .socials{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
 }
