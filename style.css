@@ -508,4 +508,16 @@
         align-items: center;
         gap: 30px;
     }
+
+    body .footer .bottom .text p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 12px;
+        color: #757575;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
 }
